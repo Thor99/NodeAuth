@@ -1,0 +1,14 @@
+2015-06-11T23:21:42.085392962 0.147394s notice: Recursively removing directory /home/thor/testPassport/rethinkdb_data/tmp
+2015-06-11T23:21:42.115583366 0.177588s notice: Initializing directory /home/thor/testPassport/rethinkdb_data
+2015-06-11T23:21:42.115714037 0.177715s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/thor/testPassport/rethinkdb_data' did not already exist or is empty.)
+2015-06-11T23:21:42.115744357 0.177745s notice: Running rethinkdb 2.0.2 (GCC 4.8.2)...
+2015-06-11T23:21:42.120230219 0.182234s notice: Running on Linux 3.13.0-54-generic x86_64
+2015-06-11T23:21:42.120314228 0.182315s notice: Loading data from directory /home/thor/testPassport/rethinkdb_data
+2015-06-11T23:21:42.990781590 1.052784s info: Automatically using cache size of 6335 MB
+2015-06-11T23:21:42.993543956 1.055545s notice: Listening for intracluster connections on port 29015
+2015-06-11T23:21:42.994856856 1.056857s notice: Listening for client driver connections on port 28015
+2015-06-11T23:21:42.994925755 1.056926s notice: Listening for administrative HTTP connections on port 8080
+2015-06-11T23:21:42.994928434 1.056929s notice: Listening on addresses: 127.0.0.1, 127.0.1.1, ::1
+2015-06-11T23:21:42.994929640 1.056930s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2015-06-11T23:21:42.994930818 1.056931s notice: Server ready, "Thor_PC_cyw" a4c33d1b-237c-4517-a6fa-b0e7ebad959b
+2015-06-11T23:21:46.003015362 4.065016s notice: A newer version of the RethinkDB server is available: 2.0.3. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.

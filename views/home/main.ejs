@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="UTF-8">
+		<title>Teste</title>
+
+	</head>
+
+	<body>
+		<section>
+			<h2>Login:</h2>
+			<form action="/login" method="post">
+				<input type="text" placeholder="Email" name="email">
+				<br>
+
+				<input type="password" placeholder="Password" name="password">
+				<br>
+				
+				<button type="submit">Login</button>
+			</form>
+		</section>
+		<br><br>
+		<section>
+			<h2>Signup:</h2>
+			<% if (error && error.length > 0) { %>
+				<p><% error %></p>
+			<% } %>
+			<form action="/Signup" method="post">
+				<input type="text" placeholder="Name" name="nameSignup">
+				<br>
+
+				<input type="text" placeholder="E-mail" name="emailSignup">
+				<br>
+				
+				<input type="password" placeholder="password" name="passwordSignup">
+				<br>
+
+				<button type="submit">Signup</button>
+			</form>
+		</section>
+	</body>
+
+</html>
