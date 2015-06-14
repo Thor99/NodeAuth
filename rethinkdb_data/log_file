@@ -29,3 +29,8 @@
 2015-06-12T00:58:08.556076580 0.321357s notice: Server ready, "Thor_PC_cyw" a4c33d1b-237c-4517-a6fa-b0e7ebad959b
 2015-06-12T00:58:10.477396586 2.242678s notice: A newer version of the RethinkDB server is available: 2.0.3. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
 2015-06-12T02:07:39.978741995 4171.744023s notice: Removing file /home/thor/testPassport/rethinkdb_data/10b92906-1655-465c-b32b-1713574d847b
+2015-06-12T02:10:10.311398180 4322.076680s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2015-06-12T02:10:10.311602131 4322.076883s notice: Shutting down client connections...
+2015-06-12T02:10:10.311721662 4322.077003s notice: All client connections closed.
+2015-06-12T02:10:10.311724220 4322.077005s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2015-06-12T02:10:10.312113072 4322.077394s notice: Storage engine shut down.
