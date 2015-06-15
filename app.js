@@ -25,12 +25,6 @@ app.use(expressSession({
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(flash());
-app.use(function(req, res, next){
-    res.locals.success = req.flash('success');
-    res.locals.errors = req.flash('error');
-    next();
-});
-
 
 // Homepage
 app.get('/', home.main);

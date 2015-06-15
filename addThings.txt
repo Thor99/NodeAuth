@@ -1,0 +1,4 @@
+things to add:
+
+Email field has to be unique
+Login system

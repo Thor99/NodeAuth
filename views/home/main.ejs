@@ -8,12 +8,6 @@
 	</head>
 
 	<body>
-		<% if (success && success.length > 0) { %>
-			<p><% success %></p>
-		<% } %>
-		<% if (errors && errors.length > 0) { %>
-			<p><% errors %></p>
-		<% } %>
 		<section>
 			<h2>Login:</h2>
 			<form action="/login" method="post">
@@ -28,6 +22,12 @@
 		</section>
 		<br><br>
 		<section>
+			<% if (messageError) { %>
+				<p><%- messageError %></p>
+			<% } %>
+			<% if (messageSuccess) { %>
+				<p><%- messageSuccess %></p>
+			<% } %>
 			<h2>Signup:</h2>
 			<form action="/signup" method="post">
 				<input type="text" placeholder="Name" name="nameSignup">
