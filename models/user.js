@@ -8,6 +8,8 @@ var User = thinky.createModel('users', {
 	name: type.string(),
 	email: type.string(),
 	password: type.string()
+}, {
+	pk: "email"
 });
 
 // Exports

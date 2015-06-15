@@ -9,12 +9,15 @@
 
 	<body>
 		<section>
+			<% if (messageErrorLogin) { %>
+				<p><%- messageErrorLogin %></p>
+			<% } %>
 			<h2>Login:</h2>
 			<form action="/login" method="post">
-				<input type="text" placeholder="Email" name="email">
+				<input type="text" placeholder="Email" name="emailLogin">
 				<br>
 
-				<input type="password" placeholder="Password" name="password">
+				<input type="password" placeholder="Password" name="passwordLogin">
 				<br>
 				
 				<button type="submit">Login</button>
