@@ -3,12 +3,8 @@ things to add:
 ------ Done ------
 
 Login system (Done)
-
-
-
-
+Email field has to be unique (Done)
 
 ------ Future updates ------
 
-Email field has to be unique
 Facebook strategy

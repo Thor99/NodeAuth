@@ -65,16 +65,16 @@ exports.signup = function(req, res) {
 					password: hash
 				});
 
-				user.save(function(err, accepted){
-					if (err) {
-						console.log(err);
-					} else {
-						console.log("User " + user.name + " saved to the db");
-					}
+				user.save().then(function(){
+					console.log('User ' + user.name + ' saved to the db');
+					req.flash('success', 'User registered successfully!');
+					res.redirect('/');
+				}).error(function(error){
+					console.log('Email already registered!');
+					req.flash('error', 'Email already registered in our db');
+					res.redirect('/');
 				});
 			});
-			req.flash('success', 'User registered successfully!');
-			res.redirect('/');
 		}
 
 	} else {
