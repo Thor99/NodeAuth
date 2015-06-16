@@ -1,4 +1,14 @@
 things to add:
 
-Email field has to be unique (Done)
+------ Done ------
+
 Login system (Done)
+
+
+
+
+
+------ Future updates ------
+
+Email field has to be unique
+Facebook strategy
