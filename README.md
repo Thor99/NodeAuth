@@ -1,1 +1,1 @@
-Just a simple application, without any design, aiming to learn passport.js
+Express.js authentication system, using RethinkDB as the DB, and thinky.io as the ORM.
